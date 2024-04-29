@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fornulário de contato</h1>
+    <p>
+        Por favor, preencha o formulário abaixo e clique no botão Enviar mensagem. Agradecemos por seu contato.
+    </p>
+    <form action="/processa" method="POST">
+        <fieldset>
+            <legend>Dados básocos</legend>
+            <label for="name">Nome:</label>
+            <input type="text" value="" name="nome"/><br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required placeholder="seuemail@dominio.com.br"><br>
+            <label for="url">Website:</label>
+            <input type="url" name="" id="url" required placeholder="http://">
+        </fieldset>
+        <fieldset>
+            <legend>Seu curso no Instituto da Computação</legend> 
+            
+        </fieldset>
+    </form>
+</body>
+</html>
